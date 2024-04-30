@@ -1,0 +1,32 @@
+body{
+background-color:#22282a ;
+
+}
+.cv{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+img{
+margin-top: 60px;
+border-radius: 30px;
+margin-left: -150px;
+z-index: 22;
+transition: 0.7s ease;
+
+
+}
+img:hover{
+margin-left: 180px;
+border-radius: 30px !important;
+align-items: center;
+justify-content: center;
+}
+p {
+    position: fixed;
+    font-size: 34px;
+    color: #ff2740;
+    left: 295px;
+    font-weight: 900;
+}
+
